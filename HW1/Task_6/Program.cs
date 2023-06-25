@@ -8,6 +8,6 @@ Console.Clear();
 Console.Write("Введите число: ");
 int a = Convert.ToInt32(Console.ReadLine());
 if (a % 2 == 0)
-System.Console.WriteLine($"Число {a} - это чётное число");
+    System.Console.WriteLine($"Число {a} - это чётное число");
 else
-System.Console.WriteLine($"Число {a} - это нечётное число");
+    System.Console.WriteLine($"Число {a} - это нечётное число");

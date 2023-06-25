@@ -10,4 +10,4 @@ if (number >= 100 && number < 1000)
     Console.Write($"{last} - это последняя цифра в числе {number}");
 }
 else
-Console.Write("Это не трёхзначное число");
+    Console.Write("Это не трёхзначное число");

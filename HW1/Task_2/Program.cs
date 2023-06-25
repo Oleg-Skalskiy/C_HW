@@ -10,6 +10,6 @@ int a = Convert.ToInt32(Console.ReadLine());
 Console.Write("Введите b: ");
 int b = Convert.ToInt32(Console.ReadLine());
 if (a > b)
-System.Console.WriteLine($"{a} > {b}");
-else 
-System.Console.WriteLine($"{a} < {b}");
+    System.Console.WriteLine($"{a} > {b}");
+else
+    System.Console.WriteLine($"{a} < {b}");
