@@ -19,18 +19,18 @@ PrintArray(spiralArray);
 
 void GetSpiral(int[,] spiralArray)
 {
-for (int tmp = 1; tmp <= spiralArray.GetLength(0) * spiralArray.GetLength(1); tmp++)
-{
-    spiralArray[i, j] = tmp;
-    if (i <= j + 1 && i + j < spiralArray.GetLength(1) - 1)
-        j++;
-    else if (i < j && i + j >= spiralArray.GetLength(0) - 1)
-        i++;
-    else if (i >= j && i + j > spiralArray.GetLength(1) - 1)
-        j--;
-    else
-        i--;
-}
+    for (int tmp = 1; tmp <= spiralArray.GetLength(0) * spiralArray.GetLength(1); tmp++)
+    {
+        spiralArray[i, j] = tmp;
+        if (i <= j + 1 && i + j < spiralArray.GetLength(1) - 1)
+            j++;
+        else if (i < j && i + j >= spiralArray.GetLength(0) - 1)
+            i++;
+        else if (i >= j && i + j > spiralArray.GetLength(1) - 1)
+            j--;
+        else
+            i--;
+    }
 }
 
 void PrintArray(int[,] inArray)
